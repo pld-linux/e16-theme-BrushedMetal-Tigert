@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Enlightenment BrushedMetal-Tigert Theme
+Enlightenment BrushedMetal-Tigert Theme.
 
 %description -l pl
-Wystrój BrushedMetal-Tigert dla enlightenmenta
+Wystrój BrushedMetal-Tigert dla enlightenmenta.
 
 %prep
 %setup -q
