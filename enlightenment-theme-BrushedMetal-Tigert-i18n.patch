@@ -1,0 +1,276 @@
+diff -Nur themes/BrushedMetal-Tigert.orig/borders/common/border.cfg themes/BrushedMetal-Tigert/borders/common/border.cfg
+--- themes/BrushedMetal-Tigert.orig/borders/common/border.cfg	1999-10-06 23:38:48.000000000 +0200
++++ themes/BrushedMetal-Tigert/borders/common/border.cfg	2000-12-28 19:05:29.000000000 +0100
+@@ -426,22 +426,22 @@
+   __NAME "TEXT1"
+   __JUSTIFICATION 0
+   
+-  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 180 180 180
+ 
+-  __NORMAL_ACTIVE "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL_ACTIVE "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+ 
+-  __NORMAL_STICKY "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL_STICKY "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 180 180 180
+ 
+-  __NORMAL_ACTIVE_STICKY "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL_ACTIVE_STICKY "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+diff -Nur themes/BrushedMetal-Tigert.orig/coords/coords.cfg themes/BrushedMetal-Tigert/coords/coords.cfg
+--- themes/BrushedMetal-Tigert.orig/coords/coords.cfg	1999-10-06 23:38:48.000000000 +0200
++++ themes/BrushedMetal-Tigert/coords/coords.cfg	2000-12-28 19:05:36.000000000 +0100
+@@ -2,7 +2,7 @@
+   __NAME "COORDS"
+   __JUSTIFICATION 0
+     
+-  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+diff -Nur themes/BrushedMetal-Tigert.orig/dialogs/dialogs.cfg themes/BrushedMetal-Tigert/dialogs/dialogs.cfg
+--- themes/BrushedMetal-Tigert.orig/dialogs/dialogs.cfg	1999-10-06 23:38:48.000000000 +0200
++++ themes/BrushedMetal-Tigert/dialogs/dialogs.cfg	2000-12-28 19:06:10.000000000 +0100
+@@ -133,7 +133,7 @@
+   __NAME "DIALOG"
+   __JUSTIFICATION 512
+ 		
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+@@ -143,7 +143,7 @@
+   __NAME "DIALOG_WIDGET_BUTTON"
+   __JUSTIFICATION 512
+   
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+@@ -153,7 +153,7 @@
+   __NAME "DIALOG_WIDGET_CHECK_BUTTON"
+   __JUSTIFICATION 0
+   
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+@@ -163,7 +163,7 @@
+   __NAME "DIALOG_WIDGET_RADIO_BUTTON"
+   __JUSTIFICATION 0
+   
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+@@ -173,7 +173,7 @@
+   __NAME "DIALOG_WIDGET_TEXT"
+   __JUSTIFICATION 512
+   
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+@@ -183,7 +183,7 @@
+   __NAME "PAGER_WINDOW_TITLE"
+   __JUSTIFICATION 0
+   
+-  __NORMAL "-*-lucida-bold-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-bold-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 180 180 180
+@@ -193,7 +193,7 @@
+   __NAME "DIALOG_BUTTON"
+   __JUSTIFICATION 512
+     
+-  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-bold-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+diff -Nur themes/BrushedMetal-Tigert.orig/epplets/epplets.cfg themes/BrushedMetal-Tigert/epplets/epplets.cfg
+--- themes/BrushedMetal-Tigert.orig/epplets/epplets.cfg	1999-10-10 23:31:45.000000000 +0200
++++ themes/BrushedMetal-Tigert/epplets/epplets.cfg	2000-12-28 19:07:11.000000000 +0100
+@@ -286,7 +286,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_LABEL"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+@@ -294,7 +294,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_BUTTON"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+@@ -302,7 +302,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_TOGGLEBUTTON_ON"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+@@ -310,7 +310,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_TOGGLEBUTTON_OFF"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+@@ -318,7 +318,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_POPUP"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+@@ -326,7 +326,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_TEXT_TINY"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--10-*,-*-r-*--10-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+@@ -334,7 +334,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_TEXT_MEDIUM"
+-  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+@@ -342,7 +342,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_TEXT_LARGE"
+-  __NORMAL "-*-lucida-bold-r-normal-*-*-120-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-bold-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--16-*,-*-r-*--16-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+diff -Nur themes/BrushedMetal-Tigert.orig/focuslist/focuslist.cfg themes/BrushedMetal-Tigert/focuslist/focuslist.cfg
+--- themes/BrushedMetal-Tigert.orig/focuslist/focuslist.cfg	1999-10-06 23:38:48.000000000 +0200
++++ themes/BrushedMetal-Tigert/focuslist/focuslist.cfg	2000-12-28 19:07:29.000000000 +0100
+@@ -2,12 +2,12 @@
+   __NAME "WARPFOCUS"
+   __JUSTIFICATION 0
+   
+-  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 180 180 180
+ 
+-  __CLICKED "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __CLICKED "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 255 255 255
+   __BACKGROUND_COLOR 0 0 0
+diff -Nur themes/BrushedMetal-Tigert.orig/iconbox/iconbox.cfg themes/BrushedMetal-Tigert/iconbox/iconbox.cfg
+--- themes/BrushedMetal-Tigert.orig/iconbox/iconbox.cfg	1999-10-06 23:38:48.000000000 +0200
++++ themes/BrushedMetal-Tigert/iconbox/iconbox.cfg	2000-12-28 19:07:37.000000000 +0100
+@@ -131,7 +131,7 @@
+   __NAME "ICONBOX_WINDOW_TITLE"
+   __JUSTIFICATION 0
+     
+-  __NORMAL "-*-lucida-bold-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 180 180 180
+diff -Nur themes/BrushedMetal-Tigert.orig/init/init.cfg themes/BrushedMetal-Tigert/init/init.cfg
+--- themes/BrushedMetal-Tigert.orig/init/init.cfg	1999-10-06 23:38:48.000000000 +0200
++++ themes/BrushedMetal-Tigert/init/init.cfg	2000-12-28 19:08:03.000000000 +0100
+@@ -34,7 +34,7 @@
+   __NAME "PROGRESS_TEXT"
+   __JUSTIFICATION 0
+   
+-  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 180 180 180
+@@ -45,7 +45,7 @@
+   __NAME "PROGRESS_TEXT_NUMBER"
+   __JUSTIFICATION 512
+   
+-  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 180 180 180
+diff -Nur themes/BrushedMetal-Tigert.orig/menustyles/menustyles.cfg themes/BrushedMetal-Tigert/menustyles/menustyles.cfg
+--- themes/BrushedMetal-Tigert.orig/menustyles/menustyles.cfg	1999-10-07 01:42:36.000000000 +0200
++++ themes/BrushedMetal-Tigert/menustyles/menustyles.cfg	2000-12-28 19:08:15.000000000 +0100
+@@ -31,12 +31,12 @@
+   __NAME "MENU"
+   __JUSTIFICATION 0
+   
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_NONE
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 0 0 0
+ 
+-  __HILITED "-*-lucida-medium-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __HILITED "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 255 255 255
+diff -Nur themes/BrushedMetal-Tigert.orig/pager/pager.cfg themes/BrushedMetal-Tigert/pager/pager.cfg
+--- themes/BrushedMetal-Tigert.orig/pager/pager.cfg	1999-10-06 23:38:48.000000000 +0200
++++ themes/BrushedMetal-Tigert/pager/pager.cfg	2000-12-28 19:08:22.000000000 +0100
+@@ -33,7 +33,7 @@
+   __NAME "PAGER_WINDOW_TITLE"
+   __JUSTIFICATION 0
+     
+-  __NORMAL "-*-lucida-bold-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-bold-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 180 180 180
+diff -Nur themes/BrushedMetal-Tigert.orig/tooltips/tooltips.cfg themes/BrushedMetal-Tigert/tooltips/tooltips.cfg
+--- themes/BrushedMetal-Tigert.orig/tooltips/tooltips.cfg	1999-10-06 23:38:48.000000000 +0200
++++ themes/BrushedMetal-Tigert/tooltips/tooltips.cfg	2000-12-28 19:08:28.000000000 +0100
+@@ -34,7 +34,7 @@
+   __NAME "TT_TEXT"
+   __JUSTIFICATION 0
+   
+-  __NORMAL "-*-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-bold-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_NONE
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 180 180 180
