@@ -1,6 +1,6 @@
 %define	_tname	BrushedMetal-Tigert
-Summary:	Enlightenment BrushedMetal-Tigert Theme
-Summary(pl):	Wystrój BrushedMetal-Tigert dla enlightenmenta
+Summary:	Enlightenment BrushedMetal-Tigert theme
+Summary(pl):	Wystrój BrushedMetal-Tigert dla Enlightenmenta
 Name:		enlightenment-theme-%{_tname}
 Version:	0.16
 Release:	1
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Enlightenment BrushedMetal-Tigert Theme.
+Enlightenment BrushedMetal-Tigert theme.
 
 %description -l pl
-Wystrój BrushedMetal-Tigert dla enlightenmenta.
+Wystrój BrushedMetal-Tigert dla Enlightenmenta.
 
 %prep
 %setup -q
