@@ -10,6 +10,7 @@ Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
 # Source0-md5:	e73a4e329369f013d738e965618942d4
 URL:		http://www.enlightenment.org/
 Requires:	e16
+Obsoletes:	enlightenment-theme-%{_tname} <= 0.16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
