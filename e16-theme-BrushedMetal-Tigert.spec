@@ -1,16 +1,15 @@
 %define	_tname	BrushedMetal-Tigert
 Summary:	Enlightenment BrushedMetal-Tigert theme
 Summary(pl):	Wystrój BrushedMetal-Tigert dla Enlightenmenta
-Name:		enlightenment-theme-%{_tname}
-Version:	0.16
+Name:		e16-theme-%{_tname}
+Version:	0.16.8
 Release:	1
 License:	GPL
 Group:		Themes
 Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
-# Source0-md5:	e26afc428365f3e6c4ac4a3ecae81540
-Patch0:		%{name}-i18n.patch
+# Source0-md5:	e73a4e329369f013d738e965618942d4
 URL:		http://www.enlightenment.org/
-Requires:	enlightenment >= 0.16.7.1
+Requires:	e16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -24,17 +23,17 @@ Wystrój BrushedMetal-Tigert dla Enlightenmenta.
 %setup -q
 mkdir %{_tname}
 tar -zxf %{_tname}.etheme -C %{_tname}
-%patch0 -p1
+rm %{_tname}/fonts.cfg.*
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-install -d $RPM_BUILD_ROOT%{_datadir}/enlightenment/themes/
-cp -a %{_tname} $RPM_BUILD_ROOT%{_datadir}/enlightenment/themes/
+install -d $RPM_BUILD_ROOT%{_datadir}/e16/themes/
+cp -a %{_tname} $RPM_BUILD_ROOT%{_datadir}/e16/themes/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_datadir}/enlightenment/themes/%{_tname}
+%{_datadir}/e16/themes/%{_tname}
