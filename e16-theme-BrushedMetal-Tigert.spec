@@ -1,6 +1,6 @@
 %define	_tname	BrushedMetal-Tigert
 Summary:	Enlightenment BrushedMetal-Tigert theme
-Summary(pl.UTF-8):   Wystrój BrushedMetal-Tigert dla Enlightenmenta
+Summary(pl.UTF-8):	Wystrój BrushedMetal-Tigert dla Enlightenmenta
 Name:		e16-theme-%{_tname}
 Version:	0.16.8
 Release:	1
